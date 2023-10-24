@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- sinema perdesi -->
+      <div class="screen">
+        <img src="cinema.avif" style="width: 220px" , height="100px" />
+      </div>
+      <!-- koltuk sirasi divi -->
+      <div class="seatRow">
+        <div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+    </div>
+    <div class="movie-list">
+      <select id="movie">
+        <option disabled>Film Seciniz</option>
+        <option value="100">Film 1</option>
+        <option value="200">Film 2</option>
+        <option value="300">Film 3</option>
+      </select>
+    </div>
+
+    <ul>
+      <li>
+        <div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
+        <span>Rezerve</span>
+      </li>
+      <li>
+        <div class="seat selected"><i class="fa-solid fa-chair"></i></div>
+        <span>Secili Koltuk</span>
+      </li>
+      <li>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <span>Bos</span>
+      </li>
+    </ul>
+    <!-- tutqr bilgı -->
+    <p class="infoText">
+      <span id="count"></span> koltuk icin hesaplanan ucret<span id="amount"
+        >150</span
+      >
+    </p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
